@@ -1,0 +1,383 @@
+@import "reset";
+
+*,
+table {
+  margin: 0 auto;
+}
+
+nav a {
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+/* First Row styles */
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  background: #d9d9d9;
+  padding: 20px;
+  font-size: .8rem;
+
+}
+
+/* Second Row styles */
+.second-container {
+  z-index: 1;
+  /* background: rgba(255, 77, 255, .6); */
+  /* opacity: 50%; */
+  background: linear-gradient(to bottom, rgba(210, 167, 255, .5), rgba(200, 115, 255, .5), rgba(198, 26, 255, .7));
+}
+
+.second-row {
+  background: url("../images/resort.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.second-row-pic {
+  margin: 0 auto;
+  z-index: 2;
+  opacity: 100%;
+}
+
+.second-row-content {
+  text-align: center;
+}
+
+/* third Row styles */
+
+.frow-memories {
+  text-align: center;
+  justify-content: center;
+  position: inherit;
+  position: relative;
+  left: 150px;
+  color: white;
+  width: 100%;
+}
+
+.frow-memories h1 {
+  padding: 0.5rem;
+}
+.fRow-right tr td h1 {
+  padding: 40px 20px 30px 0px;
+  font-size: 1.4rem;
+}
+.fRow-right tr td p {
+  width: 80%;
+  margin: 0;
+  padding: 10px 0px;
+}
+.frow-memories h3 {
+  padding: 1rem;
+}
+.frow-memories button {
+  text-transform: uppercase;
+  padding: 1rem;
+  background: white;
+  border-radius: 5%;
+  font-weight: 700;
+}
+
+/* Fourth Row styles */
+.foRow-left {
+  text-align: center;
+}
+
+.foRow-left tr td h1 {
+  font-size: 3rem;
+  color: #b32f8e;
+}
+.foRow-left tr td h3 {
+  text-transform: uppercase;
+}
+
+.foRow-right {
+  padding: 35px;
+}
+
+.hotel-view {
+  -webkit-box-shadow: 1px 5px 15px 5px #000000;
+  box-shadow: 1px 5px 15px 5px #000000;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.hotel-view2 {
+  -webkit-box-shadow: 1px 5px 15px 5px #000000;
+  box-shadow: 1px 5px 15px 5px #000000;
+}
+.purple-bar {
+  background-color: #b32f8e;
+  padding: 10px;
+  width: 30%;
+  margin: 0;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  top: -10px;
+}
+
+.purple-bar2 {
+  background-color: #b32f8e;
+  padding: 10px;
+  width: 10%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+em {
+  color: #b32f8e;
+}
+/* Fifth Row styles */
+.vaca-spots {
+  padding: 15px;
+  width: 150px;
+  height: 120px;
+}
+.vaca-spots2 {
+  padding: 15px;
+  width: 150px;
+  height: 120px;
+}
+.vaca-spots3 {
+  padding: 15px;
+  width: 150px;
+  height: 120px;
+}
+.vaca-spots-row {
+  width: 480px;
+  margin: 0;
+  position: relative;
+  left: -40px;
+  display: flex;
+}
+.image-row {
+  background: linear-gradient(to bottom right, #8099f4, #b32f8e);
+}
+
+#insta {
+  color: white;
+  padding: 0px 15px;
+}
+
+#arrow {
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 3.5rem;
+  opacity: 50%;
+}
+
+.six-row td h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Sixth Row styles */
+
+.six-row {
+  display: flex;
+  flex-direction: row;
+  background-color: #e6e6e6;
+}
+
+.purple-circle {
+  border-radius: 50%;
+  border: 25px solid #660066;
+  background: white;
+  width: 30%;
+}
+
+.inner-circle {
+  border-radius: 50%;
+  background: white;
+  border: 10px solid white;
+}
+
+#heart {
+  font-size: 2rem;
+  color: #800080;
+}
+
+/* Seventh Row styles */
+.seventh-row {
+  background-color: #e699ff;
+  width: 100%;
+
+}
+.seventh-row .purple-bar3{
+  justify-content: center;
+  background-color: #5b0079;;
+  padding: 10px;
+  width: 15%;
+  margin: 0 auto;
+  border-radius: 10px;
+
+}
+.room-table {
+  display: flex;
+}
+
+.rose-room {
+  margin: 10px;
+  padding: 15px 20px 15px;
+  background-color: #8600b3;
+}
+
+.rose-room-title {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.inner-rose {
+  text-align: center;
+  border: 3px solid white;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.inner-rose ul {
+  display: initial;
+  list-style: none;
+  font-size: .8rem;
+
+}
+
+.jasmine-room {
+  margin: 10px;
+  padding: 15px 20px 15px;
+  background-color: #bf00ff;
+}
+
+.rosela-room {
+  margin: 10px;
+  padding: 15px 20px 15px;
+  background-color: #8600b3;
+}
+
+/* Eigth Row styles */
+
+.eigth-row{
+  background: #d9d9d9;
+}
+
+.eigth-row .container {
+  display: flex;
+  padding: 15px;
+}
+.eigth-row .container h1 {
+  width: 47%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.eigth-row .container h3 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  padding: 10px;
+  font-size: 1rem;
+}
+.eigth-row .container .border{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 15px;
+}
+
+.num{
+  font-size: 2rem;
+}
+.eigth-row .container .border a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  border: 3px solid #8600b3;
+  border-radius: 30px;
+  padding: 5px;
+  color: #8600b3;
+}
+
+.row a{
+  cursor: pointer;
+}
+
+/* Ninth Row styles */
+
+.ninth-row{
+  background-color: #8600b3;
+  color: white;
+}
+
+.ninth-row .container{
+  text-align: center;
+}
+
+/* .ninth-row .container .white-line{
+  background-color: white;
+} */
+
+.ninth-row .container h2{
+  font-size: 1.5rem;
+}
+
+.ninth-row .container p{
+}
+
+.ninth-row .container .row{
+  padding: 10px;
+}
+
+.ninth-row .container .row2{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ninth-row .container .purple-circle2{
+    width: 30%;
+    color: white;
+    border-radius: 45px;
+    font-size: 20px;
+    justify-content: space-around;
+    border: 2px solid;
+    background-color: #bf00ff;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.ninth-row .container .purple-circle2 h2{
+padding-left: 15px;
+font-size: 1.9rem;
+
+}
+
+#apple{
+  font-size: 2rem;
+  position: relative;
+  top: 20px;
+}
+
+#play{
+  font-size: 2rem;
+  position: relative;
+  left: -10px;
+  bottom: -5px;
+}
+
+.white-line{
+  width:30%;
+  color: white;
+  margin: 20px;
+    display: inline-block;
+}
+
+.holder-address{
+  padding: 20px;
+}
